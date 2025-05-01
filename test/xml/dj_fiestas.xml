@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<fiestas>
+	<item tipo="visor_texto_fotos_2" altoFoto="330" anchoFoto="247" velocidadFoto="3000" altoTextoColumna="430" anchoTextoColumna="100">
+		<item tipo="fotos" src="fotos/fiestas/brandom.jpg" titulo="Brandon Gay Day" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/centralpark.jpg" titulo="Central Park" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_1.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_2.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_3.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_4.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_5.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/club69_6.jpg" titulo="Club 69" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/eastfest.jpg" titulo="East Festival" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/joseignacio.jpg" titulo="José Ignacio" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/joseignacio2.jpg" titulo="José Ignacio" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/larumba.jpg" titulo="La Rumba" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/larumba2.jpg" titulo="La Rumba" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/lasvacas1.jpg" titulo="Las Vacas" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/lasvacas2.jpg" titulo="Las Vacas" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/lasvacas3.jpg" titulo="Las Vacas" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny1.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny2.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny3.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny4.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny5.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny6.jpg" titulo="NY" texto=""></item>
+		<item tipo="fotos" src="fotos/fiestas/ny7.jpg" titulo="NY" texto=""></item>
+
+
+		<item tipo="texto" texto="Brandon Gay Day"></item>
+		<item tipo="texto" texto="Central Park"></item>
+		<item tipo="texto" texto="Club 69"></item>
+		<item tipo="texto" texto="Fuerza Bruta"></item>
+		<item tipo="texto" texto="East Festival"></item>
+		<item tipo="texto" texto="La Rumba"></item>
+		<item tipo="texto" texto="Las Vacas"></item>
+		<item tipo="texto" texto="NY"></item>
+	</item>
+</fiestas>

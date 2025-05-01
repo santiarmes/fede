@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fede Schrager DJ</title>
+    <meta name="description" content="Fede Schrager - DJ" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <script
+      type="text/javascript"
+      src="/js/jquery.min.js"
+    ></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js"></script>
+
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script
+      type="text/javascript"
+      src="/js/scrolloverflow.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/js/jquery.fullPage.min.js"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+
+
+
+  <body data-scrollbar>
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar"></div>
+    </div>
+
+    <script>
+    	$(window).load(function(){
+		  $(window).scroll(function() {
+    		var wintop = $(window).scrollTop(), docheight = $('#fullPage').height(), winheight = $(window).height();
+    var totalScroll = (wintop/(docheight-winheight))*100;
+    $(".KW_progressBar").css("height",totalScroll+"%");
+  });
+
+});
+    </script>
+
+<span id="arriba" style="position: absolute; top: 0"></span>
+<div class="offcanvas js-menu sliding-panel-content">
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#gallery">gallery</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</div>
+
+<div class="top-bar" id="masthead">
+  <div class="top-bar-wrapper">
+    <a class="logo" href="#inicio">
+      <img
+        src="/img/logo-fedescharger.svg"
+        width="240px"
+        height="34px"
+      />
+    </a>
+    <nav id="menu-superior" class="menu menu--yona">
+      <div data-menuanchor="about" class="menu__item menu__item_media">
+        <a class="menu__item-name" href="#about">about</a>
+      </div>
+      <div data-menuanchor="gallery" class="menu__item ">
+        <a class="menu__item-name" href="#gallery">gallery</a>
+      </div>
+      <div data-menuanchor="contact" class="menu__item">
+        <a class="menu__item-name" href="#contact">contact</a>
+      </div>
+    </nav>
+  </div>
+  <button type="button" class="toogle-btn js-menu-trigger sliding-panel-button">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+</div>
+
+<div class="main-container">
+  <div id="fullpage" data-scrollbar>
+  
+<section data-anchor="intro" id="section-intro" class="sec-intro section fp-noscroll">
+	<div class="fw-wrapper">
+		<div class="inner-wrapper">
+	      <img
+	        src="/img/home/home-slider.jpg"
+	        alt=""
+	        class="item-image"
+	        width="400px"
+	        data-aos="fade-up"
+	        data-aos-duration="2000"
+	        data-aos-anchor-placement="bottom-bottom"
+	      />
+	      <img
+	        src="/img/home/quote.svg"
+	        alt=""
+	        class="item-title"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="bottom-bottom"
+	        width="400px"
+	      />
+	      <img
+	        src="/img/home/keith.svg"
+	        alt=""
+	        class="item-quote"
+          data-aos="fade-up"
+          data-aos-duration="2300"
+          data-aos-anchor-placement="bottom-bottom"
+	        width="200px"
+	      />
+	      <img
+	        src="/img/home/circle.svg"
+	        alt=""
+	        class="svg-circle"
+
+	        width="600px"
+	      />
+	      <a href="#about" class="down-arrow">
+	        <img
+	          src="/img/home/down-arrow.svg"
+	          alt=""
+
+	          class=""
+	          width="70px"
+	        />
+	      </a>
+
+	      
+	    </div>
+    </div>
+  </section>
+</section>
+
+<section data-anchor="about" id="section-about" class="sec-about section fp-noscroll">
+	<div class="inner-wrapper">
+      <img
+        src="/img/about/misc-about.svg"
+        class="ani-item delay-4 item-misc"
+        alt=""
+        width="150px"
+      />
+      <img
+        src="/img/about/logo-fedescharger.svg"
+        class="ani-item delay-4 item-title"
+
+          
+        alt=""
+      />
+      <img
+        src="/img/about/about-profile.jpg"
+        class="ani-item delay-1 item-image"
+        width="350px"
+        alt=""
+
+      />
+      <p
+        class="ani-item delay-2 item-quote"
+		style="display: none"
+      >
+        <img
+          src="/img/about/misc-line-red.svg"
+          class="item-misc-red"
+          alt=""
+          width="25px"
+        />
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh.
+      </p>
+	      <a href="#media" class="down-arrow">
+        <img
+          src="/img/home/down-arrow.svg"
+          alt=""
+
+          class=""
+          width="70px"
+        />
+      </a>
+
+      <img
+        src="/img/home/circle.svg"
+        alt=""
+        class="svg-circle"
+        width="300px"
+      />
+    </div>
+</section>
+
+<section data-anchor="media" id="section-media" class="sec-media section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-quote">
+			Dj de La Huella, <br>
+			desde sus inicios.
+		</div>
+		<div class="ani-item item-title">
+			<img
+			  src="/img/media/lahuella-title.svg"
+			  alt=""
+			/>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/lahuella-profile.jpg" />
+			<div class="ani-item item-image-quote">
+				Jose Ignacio, Uruguay.
+			</div>
+		</div>
+		<img
+		  src="/img/home/circle.svg"
+		  alt=""
+		  class="svg-circle"
+		  width="434px"
+		/>
+	</div>
+</section>
+
+<section data-anchor="creamfields" id="section-creamfields" class="sec-creamfields section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-quote">
+			East Fest Punta del Este / <br>  Niceto Club / Ferona / Ruta 66.
+		</div>
+		<div class="ani-item item-title">
+			<img
+	           src="/img/media/cipriani-ibiza.svg"
+	          
+	         />
+		</div>
+		<div class="ani-item item-title-2">
+			<img src="/img/media/club-69.svg"  />
+		</div>
+		<div class="ani-item item-title-3">
+			<img
+			  src="/img/media/creamfields.svg"
+			 
+			/>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/creamfields-profile.jpg" />
+		</div>
+		<img
+		  src="/img/home/circle.svg"
+		  alt=""
+		  class="svg-circle"
+
+		/>
+	</div>
+
+
+</section>
+
+<section data-anchor="new-york" id="section-new-york" class="sec-new-york section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-quote" style="text-align: right;">
+			Central Park Summer Fest (2006 / 2010) <br>
+			Gaucho Polo / O2 Arena: Dj Fede Schrager & <br> Nelson Williams + Bajo Fondo (2012)
+		</div>
+		<div class="ani-item item-title">
+			<img src="/img/media/central-park.svg" />
+		</div>
+		<div class="ani-item item-title-2">
+			<img src="/img/media/arena-londres.svg" />
+		</div>
+		<div class="ani-item item-title-3">
+			<img src="/img/media/new-york.svg"/>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/newyork-profile.jpg" />
+		</div>
+		<img src="/img/home/circle.svg" alt="" class="svg-circle"/>
+	</div>    
+</section>
+
+<section data-anchor="fuerza-bruta" id="section-fuerza-bruta" class="sec-fuerza-bruta section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-quote" >
+			Dj Conection,CCR.
+		</div>
+		<div class="ani-item item-title">
+			<img src="/img/media/fuerza-bruta.svg"/>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/fuerza-bruta-profile.jpg" />
+		</div>
+		<div class="svg-circle">
+		  <svg
+		    xmlns="http://www.w3.org/2000/svg"
+		    width="200"
+		    height="200"
+		    viewBox="0 0 200 200"
+		  >
+		    <circle cx="100" cy="100" r="100" fill="#dddddd" />
+		  </svg>
+		</div>
+	</div>    
+</section>
+
+<section data-anchor="fiestas" id="section-fiestas" class="sec-fiestas section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="party-container">
+			<div class="ani-item item-title">
+				<img src="/img/media/party-title.svg"/>
+			</div>
+			<div class="ani-item item-title-2">
+				<img src="/img/media/party-desfiles.svg"/>
+			</div>
+			<div class="ani-item item-quote" >
+				<img src="/img/media/party-quotes.svg"/>
+			</div>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/party-image.jpg" />
+		</div>
+		<div class="svg-circle">
+			<img src="/img/home/circle.svg" alt="" class="svg-circle"/>
+		</div>
+	</div>
+</section>
+
+<section data-anchor="la-caracola" id="section-la-caracola" class="sec-la-caracola section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item delay-2 item-title">
+			<img src="/img/media/lacaracola-sucre.svg"/>
+			<div class="ani-item delay-1 item-image-quote" >
+				Faena (Bs Aires) / Quinto (Miami) / Bellini Bar (Ibiza) /
+				Hyatt (Montevideo) / La Olada (La Juanita) / Van Dam (N.York).
+			</div>
+		</div>
+		<div class="ani-item delay-4 item-image">
+			<img src="/img/media/sucre-profile.jpg" />
+		</div>
+	</div>
+</section>
+
+
+
+
+<section data-anchor="performance" id="section-performance" class="sec-performance section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="performance">
+			<div class="ani-item delay-2 item-quote" >
+				<img src="/img/media/performance-title.svg"/>
+			</div>
+			<div class="ani-item delay-1 item-title">
+				<img src="/img/media/performance-list.svg"/>
+			</div>
+		</div>
+		<div class="ani-item item-image">
+			<img src="/img/media/performance-profile.jpg" />
+		</div>
+	</div>
+</section>
+
+
+<section data-anchor="turbosonora" id="section-turbosonora" class="sec-turbosonora section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item delay-1 item-quote" >
+			Produccion General / Dj <br>
+			Niceto Club / Parada Cero / Prix Dami / El Codo <br> / The Roxy / Entre otros.
+		</div>
+		<div class="ani-item delay-2 item-title">
+			<img src="/img/media/turbosonora-title.svg"/>
+		</div>
+		<div class="ani-item delay-4 item-image">
+			<img src="/img/media/turbosonora-profile.jpg" />
+		</div>
+		<div class="svg-circle">
+			<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><circle cx="200" cy="200" r="200" fill="none" stroke="#418bc4" stroke-miterlimit="10"/></svg>
+		</div>
+	</div>
+</section>
+
+<section data-anchor="metrodance" id="section-metrodance" class="sec-metrodance section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item delay-1 item-image">
+			<img src="/img/media/metrodance-profile.jpg" />
+		</div>
+		<div class="ani-item delay-2 item-title">
+			<img src="/img/media/metrodance-title.svg" />
+		</div>
+		<div class="ani-item delay-4 item-title-2">
+			<img src="/img/media/metrodance-grooves.svg" />
+		</div>
+		<div class="ani-item delay-3 item-quote" >
+			Sunday morning
+		</div>
+		<div class="item-image-quote">
+			Music by Fede Schrager
+		</div>
+	</div>
+</section>
+
+<section data-anchor="winter-session" id="section-winter-session" class="sec-winter-session section fp-noscroll">
+		<div class="inner-wrapper">
+			<div class="ani-item delay-1 item-image">
+				<img src="/img/media/winter-sessions.jpg" />
+			</div>
+			<div class="ani-item delay-2 item-title">
+				<img src="/img/media/winter-title.svg" />
+			</div>
+			<div class="ani-item delay-4 item-title-2">
+				<img src="/img/media/winter-ski-title.svg" />
+			</div>
+			<div class="ani-item delay-3 item-quote" >
+				<span style="color: #f25430">CERRO CATEDRAL</span> (BARILOCHE) <br>
+				<span style="color: #f25430">LOS TECHOS</span> (CHAPELCO) <br>
+				<span style="color: #f25430">EL BALCON</span> (CHAPELCO) <br>
+				<span style="color: #f25430">PAIHUEN</span> (SAN MARTIN DE LOS ANDES) <br>
+				<span style="color: #f25430">CERRO CASTOR</span> (USHUAIA) <br>
+				<span style="color: #f25430">CERRO BAYO</span> (VILLA LA ANGOSTURA) <br>
+			</div>
+			<img
+			  src="/img/home/circle.svg"
+			  alt=""
+			  class="svg-circle"
+			  width="450px"
+			/>
+		</div>
+</section>
+
+<section data-anchor="feria-gastronomica" id="section-feria-gastronomica" class="sec-feria-gastronomica section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="item-image-quote ani-item delay-1">
+			Dj de la FERIA GASTRONOMICA <br>
+			de Jose Ignacio.
+
+		</div>
+		<div class="ani-item delay-2 item-image">
+			<img src="/img/media/gastronomica-profile.jpg" />
+
+		</div>
+		<div class="ani-item delay-4 item-title">
+			<img src="/img/media/feria-title.svg" />
+		</div>
+
+		<img
+		  src="/img/home/circle.svg"
+		  alt=""
+		  class="svg-circle"
+		  width="300px"
+		/>
+	</div>
+
+</section>
+
+<section data-anchor="musicon" id="section-musicon" class="sec-musicon section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-image">
+			<img src="/img/media/musicon-profile.jpg" />
+
+		</div>
+		<div class="ani-item item-title">
+			<img src="/img/media/musicon-title.svg" />
+			<div class="item-image-quote">
+				Fundador y Director musical de musiconradio.net / Identidad musical para marcas
+			</div>
+		</div>
+		<div class="svg-circle">
+			<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500"><circle cx="250" cy="250" r="250" fill="none" stroke="#f1ede4" stroke-miterlimit="10"/></svg>
+		</div>
+	</div>
+</section>
+
+<section data-anchor="por-amor" id="section-por-amor" class="sec-por-amor section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-image">
+			<img src="/img/media/por-amor-profile.jpg" />
+		</div>
+		<div class="item-image-quote">
+			Campaña Internacional <br>
+			de Prevencion de Sida (1994 / 2004/ 2005)
+		</div>
+		<div class="ani-item item-title">
+			<img src="/img/media/por-amor.svg" />
+		</div>
+		<div class="ani-item item-title-2">
+			<img src="/img/media/otras-producciones.svg" />
+		</div>
+		<img
+		  src="/img/home/circle.svg"
+		  alt=""
+		  class="svg-circle"
+		  width="200px"
+		/>
+	</div>
+</section>
+
+<section data-anchor="cubras" id="section-cubras" class="sec-cubras section fp-noscroll">
+	<div class="inner-wrapper">
+		<div class="ani-item item-image">
+			<img src="/img/media/cubras-profile.jpg" />
+		</div>
+		<img
+		  src="/img/about/misc-about.svg"
+		  class="ani-item delay-4 item-misc"
+		  alt=""
+		  width="150px"
+		/>
+		<div class="ani-item item-image-quote">
+			Diseño e Imagen de Cubras/ <br>
+			Live percussion in the House
+		</div>
+
+		<div class="ani-item item-title">
+			<img src="/img/media/cubras-title.svg" />
+		</div>
+		<div class="ani-item item-title-2">
+			<img src="/img/media/afrolatin-fest.svg" />
+			<div class="ani-item item-quote" >
+				Produccion General / Dj
+			</div>
+		</div>
+	
+		<img
+		  src="/img/home/circle.svg"
+		  alt=""
+		  class="svg-circle"
+		  width="500px"
+		/>
+	</div>
+</section>
+
+
+
+<!-- GALERIA -->
+
+<section data-anchor="gallery" id="section-gallery" class="sec-gallery section fp-noscroll">
+
+	<div class="ani-item item-title">
+		<img src="/img/media/gallery.svg" />
+	</div>
+	<div class="owl-carousel owl-theme">
+	  <div class="item">
+	    <img src="/img/gallery/gallery-01.jpg" alt="" />
+	  </div>
+	  <div class="item">
+	    <img src="/img/gallery/gallery-03.jpg" alt="" />
+	  </div>
+	  <div class="item">
+	    <img src="/img/gallery/gallery-04.jpg" alt="" />
+	  </div>
+	  <div class="item">
+	    <img src="/img/gallery/gallery-07.jpg" alt="" />
+	  </div>
+	  <div class="item">
+	    <img src="/img/gallery/gallery-11.jpg" alt="" />
+	  </div>
+	  <div class="item">
+	    <img src="/img/gallery/gallery-13.jpg" alt="" />
+	  </div>
+	</div>
+
+</section>
+
+<section
+    class="sec-contacto section fp-noscroll"
+    id="section-contact"
+    data-anchor="contact"
+  >
+    <div class="inner-wrapper">
+      <div class="metadata">
+        <p>For Booking and press information</p>
+        <p>Please contact us</p>
+        <br />
+        <br />
+        <br />
+        <p>Email</p>
+        <a href="mailto:fedeschrager@gmail.com"><p class="selection">fedeschrager@gmail.com</p></a>
+        <p>Phone</p>
+        <p class="selection">(+54911) 5995 6109</p>
+        <br />
+        <br />
+
+        <div class="social-container-ok">
+
+			<div>
+			<a
+            href="https://www.facebook.com/Dj-Fede-Schrager-159595417568186/"
+            class="item"
+            target="_blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>			
+          </a>
+		 <a href="https://www.facebook.com/Dj-Fede-Schrager-159595417568186"><p>Facebook.com/fedeschrager</p></a>
+			</div>
+
+
+          <div>
+			<a
+            href=""
+            class="item"
+            target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+		  <a href="https://www.instagram.com/fedeschrager/"><p>Instagram.com/fedeschrager</p></a>
+		  </div>
+          
+        </div>
+      </div>
+
+
+	  <!-- FORM  -->
+
+      <div class="form">
+        <form action="https://formspree.io/mwkpyrez" method="POST">
+          <input type="hidden" name="_next" value="https://mysite.com/thanks.html"/>
+          <div class="item">
+            <input type="text" placeholder="First Name*" name="name" required />
+          </div>
+          <div class="item"><input type="text" placeholder="Last Name*" name="last-name" required/></div>
+          <div class="item" style="width: 100%; flex: 1 1 100%">
+            <input type="email" placeholder="Email*" name="email" required />
+          </div>
+          <!-- <div class="item"><input type="text" placeholder="Website" name="web"/></div> -->
+          <div class="item"><input type="tel" placeholder="Phone" name="phone"/></div>
+          <div class="item" style="width: 100%; flex: 1 1 100%">
+            <fieldset>
+              <label for="message">Message*</label>
+              <textarea name="message" name="message" id="" cols="30" rows="10" required></textarea>
+            </fieldset>
+          </div>
+
+          <button class="send-btn" type="submit">Send</button>
+        </form>
+        <img
+          src="/img/logo-fedescharger.svg"
+          width="240px"
+          class="footer-logo"
+          height="34px"
+        />
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $("#fullpage").fullpage({
+      verticalCentered: true,
+      css3: true,
+      fitToSection: false,
+      scrollingSpeed: 1300,
+      autoScrolling: true,
+      dragAndMove: false,
+      navigation: false,
+      continuousVertical: false,
+      paddingBottom: '150px',
+      bigSectionsDestination: "top",
+      normalScrollElementTouchThreshold: 5,
+      //normalScrollElements: "#el-alojamiento, #lago-puelo",
+      menu: "#menu-superior",
+      anchors: ["inicio", "about", "media", "creamfields", "new-york", "fuerza", "fiestas", "la-caracola", "performance",  "turbosonora", "metrodance", "winter-session", "feria-gastronomica", "musicon", "por-amor", "cubras", "gallery", "contact"],
+	  slidesNavPosition: "bottom",
+      parallax: false,
+      //responsiveWidth: 500,
+      lazyLoading: true,
+
+      scrollBar: false,
+      scrollOverflow: false
+    });
+  });
+</script>
+
+</div>
+
+	<footer style="display: none;">
+		<a class="logo logo-foot" href="/">
+		  <img src="/img/logo-fedescharger.svg" width="210px">
+		</a> <br>
+	</footer>
+
+	<div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function($) {
+		    // grab an element
+		    var myElement = document.querySelector("#masthead");
+		    // construct an instance of Headroom, passing the element
+		    var headroom = new Headroom(myElement, {
+		      "offset": 330,
+		      "tolerance": 0
+		    });
+		    // initialise
+		    headroom.init(); 
+		});
+	</script>
+
+	<script>
+		AOS.init();
+	</script>
+
+	  <script type="text/javascript">
+    $("[data-fancybox]").fancybox({
+      // Options will go here
+      
+    });
+  </script>
+	 <script>
+    // Select all links with hashes
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+        && 
+        location.hostname == this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
+      }
+    });
+  </script>
+	<script>
+    $('.owl-carousel').owlCarousel({
+      autoplay:true,
+      autoplayTimeout: 12000,
+      autoplayHoverPause:true,
+      center: true,
+      loop:true,
+      singleItem:false,
+      touchDrag: false,
+      navigation : true, // Show next and prev buttons
+      navigationText: [
+	      "prev",
+	      "next"
+      ],
+      autoHeight: true,
+      slideSpeed : 12000,
+      paginationSpeed : 12000,
+      rewind:false,
+      margin: 50,
+      responsiveClass:true,
+         responsive:{
+             0:{
+                 items:1,
+                 nav:true
+             },
+             600:{
+                 items:4,
+                 nav:true
+             },
+
+         }
+    })
+  </script>
+	  <script>
+      $(document).ready(function() {
+         $('.tooltip').tooltipster({
+		});
+      });
+  </script>
+	<script type="text/javascript">
+jQuery(document).ready(function($){
+	//set animation timing
+	var animationDelay = 3000,
+		//loading bar effect
+		barAnimationDelay = 3800,
+		barWaiting = barAnimationDelay - 3000, //3000 is the duration of the transition on the loading bar - set in the scss/css file
+		//letters effect
+		lettersDelay = 50,
+		//type effect
+		typeLettersDelay = 150,
+		selectionDuration = 500,
+		typeAnimationDelay = selectionDuration + 800,
+		//clip effect 
+		revealDuration = 600,
+		revealAnimationDelay = 1500;
+	
+	initHeadline();
+	
+
+	function initHeadline() {
+		//insert <i> element for each letter of a changing word
+		singleLetters($('.cd-headline.letters').find('b'));
+		//initialise headline animation
+		animateHeadline($('.cd-headline'));
+	}
+
+	function singleLetters($words) {
+		$words.each(function(){
+			var word = $(this),
+				letters = word.text().split(''),
+				selected = word.hasClass('is-visible');
+			for (i in letters) {
+				if(word.parents('.rotate-2').length > 0) letters[i] = '<em>' + letters[i] + '</em>';
+				letters[i] = (selected) ? '<i class="in">' + letters[i] + '</i>': '<i>' + letters[i] + '</i>';
+			}
+		    var newLetters = letters.join('');
+		    word.html(newLetters).css('opacity', 1);
+		});
+	}
+
+	function animateHeadline($headlines) {
+		var duration = animationDelay;
+		$headlines.each(function(){
+			var headline = $(this);
+			
+			if(headline.hasClass('loading-bar')) {
+				duration = barAnimationDelay;
+				setTimeout(function(){ headline.find('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
+			} else if (headline.hasClass('clip')){
+				var spanWrapper = headline.find('.cd-words-wrapper'),
+					newWidth = spanWrapper.width() + 10
+				spanWrapper.css('width', newWidth);
+			} else if (!headline.hasClass('type') ) {
+				//assign to .cd-words-wrapper the width of its longest word
+				var words = headline.find('.cd-words-wrapper b'),
+					width = 0;
+				words.each(function(){
+					var wordWidth = $(this).width();
+				    if (wordWidth > width) width = wordWidth;
+				});
+				headline.find('.cd-words-wrapper').css('width', width);
+			};
+
+			//trigger animation
+			setTimeout(function(){ hideWord( headline.find('.is-visible').eq(0) ) }, duration);
+		});
+	}
+
+	function hideWord($word) {
+		var nextWord = takeNext($word);
+		
+		if($word.parents('.cd-headline').hasClass('type')) {
+			var parentSpan = $word.parent('.cd-words-wrapper');
+			parentSpan.addClass('selected').removeClass('waiting');	
+			setTimeout(function(){ 
+				parentSpan.removeClass('selected'); 
+				$word.removeClass('is-visible').addClass('is-hidden').children('i').removeClass('in').addClass('out');
+			}, selectionDuration);
+			setTimeout(function(){ showWord(nextWord, typeLettersDelay) }, typeAnimationDelay);
+		
+		} else if($word.parents('.cd-headline').hasClass('letters')) {
+			var bool = ($word.children('i').length >= nextWord.children('i').length) ? true : false;
+			hideLetter($word.find('i').eq(0), $word, bool, lettersDelay);
+			showLetter(nextWord.find('i').eq(0), nextWord, bool, lettersDelay);
+
+		}  else if($word.parents('.cd-headline').hasClass('clip')) {
+			$word.parents('.cd-words-wrapper').animate({ width : '2px' }, revealDuration, function(){
+				switchWord($word, nextWord);
+				showWord(nextWord);
+			});
+
+		} else if ($word.parents('.cd-headline').hasClass('loading-bar')){
+			$word.parents('.cd-words-wrapper').removeClass('is-loading');
+			switchWord($word, nextWord);
+			setTimeout(function(){ hideWord(nextWord) }, barAnimationDelay);
+			setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('is-loading') }, barWaiting);
+
+		} else {
+			switchWord($word, nextWord);
+			setTimeout(function(){ hideWord(nextWord) }, animationDelay);
+		}
+	}
+
+	function showWord($word, $duration) {
+		if($word.parents('.cd-headline').hasClass('type')) {
+			showLetter($word.find('i').eq(0), $word, false, $duration);
+			$word.addClass('is-visible').removeClass('is-hidden');
+
+		}  else if($word.parents('.cd-headline').hasClass('clip')) {
+			$word.parents('.cd-words-wrapper').animate({ 'width' : $word.width() + 10 }, revealDuration, function(){ 
+				setTimeout(function(){ hideWord($word) }, revealAnimationDelay); 
+			});
+		}
+	}
+
+	function hideLetter($letter, $word, $bool, $duration) {
+		$letter.removeClass('in').addClass('out');
+		
+		if(!$letter.is(':last-child')) {
+		 	setTimeout(function(){ hideLetter($letter.next(), $word, $bool, $duration); }, $duration);  
+		} else if($bool) { 
+		 	setTimeout(function(){ hideWord(takeNext($word)) }, animationDelay);
+		}
+
+		if($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
+			var nextWord = takeNext($word);
+			switchWord($word, nextWord);
+		} 
+	}
+
+	function showLetter($letter, $word, $bool, $duration) {
+		$letter.addClass('in').removeClass('out');
+		
+		if(!$letter.is(':last-child')) { 
+			setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration); 
+		} else { 
+			if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 200);}
+			if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
+		}
+	}
+
+	function takeNext($word) {
+		return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
+	}
+
+	function takePrev($word) {
+		return (!$word.is(':first-child')) ? $word.prev() : $word.parent().children().last();
+	}
+
+	function switchWord($oldWord, $newWord) {
+		$oldWord.removeClass('is-visible').addClass('is-hidden');
+		$newWord.removeClass('is-hidden').addClass('is-visible');
+	}
+});
+</script>
+	<script>
+	$(document).ready(function(){
+	  $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+	    $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+	    e.preventDefault();
+	  });
+	   $(".toogle-btn").click(function(){
+        $(this).toggleClass("is-visible");
+        $(".toogle-content").toggleClass("is-visible");
+       });
+	});
+</script>
+
+
+
+
+
+
+</body>
+

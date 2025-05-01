@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<contacto>
+	<item tipo="visor_fotos_1">
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="200" ancho="200" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto03.jpg" titulo="titulo3" texto="bla3"></item>
+		<item tipo="fotos" alto="150" ancho="100" src="fotos/foto03.jpg" titulo="titulo4" texto="bla3"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="200" ancho="200" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto03.jpg" titulo="titulo3" texto="bla3"></item>
+		<item tipo="fotos" alto="150" ancho="100" src="fotos/foto03.jpg" titulo="titulo4" texto="bla3"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="200" ancho="200" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto03.jpg" titulo="titulo3" texto="bla3"></item>
+		<item tipo="fotos" alto="150" ancho="100" src="fotos/foto03.jpg" titulo="titulo4" texto="bla3"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="200" ancho="200" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto03.jpg" titulo="titulo3" texto="bla3"></item>
+		<item tipo="fotos" alto="150" ancho="100" src="fotos/foto03.jpg" titulo="titulo4" texto="bla3"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="200" ancho="200" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="100" ancho="200" src="fotos/foto03.jpg" titulo="titulo3" texto="bla3"></item>
+		<item tipo="fotos" alto="150" ancho="100" src="fotos/foto03.jpg" titulo="titulo4" texto="bla3"></item>
+	</item>
+</contacto>

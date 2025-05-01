@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<sets>
+	<item tipo="player_audio">
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo 1"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+		<item tipo="mp3" src="mp3/a.mp3" nombre="Tu recuerdo"></item>
+		<item tipo="mp3" src="mp3/b.mp3" nombre="Piazzola_1"></item>
+		<item tipo="mp3" src="mp3/c.mp3" nombre="Piazzola_2"></item>
+	</item>
+</sets>

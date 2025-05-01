@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<bares>
+	<item tipo="visor_texto_fotos_2" altoFoto="330" anchoFoto="247" velocidadFoto="3000" altoTextoColumna="430" anchoTextoColumna="100">
+		<item tipo="fotos" src="fotos/bares/bajoelalma.jpg" titulo="Bajo el Alma" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/bar6.jpg" titulo="Bar 6" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/baruriarte.jpg" titulo="Bar Uriarte" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/cafelafayatte.jpg" titulo="Café Lafayatte" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/christothe.jpg" titulo="Christophe" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/cm1.jpg" titulo="CM" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/cm2.jpg" titulo="CM" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/cm4.jpg" titulo="CM" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/danzon.jpg" titulo="Danzon" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/kosiukobar.jpg" titulo="Kosiuko bar" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/kuar1.jpg" titulo="Kuar" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/kuar2.jpg" titulo="Kuar" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/lahuella.jpg" titulo="La huella" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/lahuella2.jpg" titulo="La huella" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/leperepinar.jpg" titulo="Le pere pinar" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/pahiuen.jpg" titulo="Pahiuen" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/pparadiso.jpg" titulo="P Paradiso" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/pparadiso2.jpg" titulo="P Paradiso" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/rose.jpg" titulo="Rose" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/sportbeach.jpg" titulo="Sport beach" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/sucre1.jpg" titulo="Sucre" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/sucre2.jpg" titulo="Sucre" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/sucre3.jpg" titulo="Sucre" texto=""></item>
+		<item tipo="fotos" src="fotos/bares/vandam.jpg" titulo="Vandam" texto=""></item>
+
+		<item tipo="texto" texto="Bajo el Alma"></item>
+		<item tipo="texto" texto="Bar 6"></item>
+		<item tipo="texto" texto="Bar Uriarte"></item>
+		<item tipo="texto" texto="Café Lafayatte"></item>
+		<item tipo="texto" texto="Christophe"></item>
+		<item tipo="texto" texto="CM"></item>
+		<item tipo="texto" texto="Danzon"></item>
+		<item tipo="texto" texto="Kosiuko Bar"></item>
+		<item tipo="texto" texto="Kuar"></item>
+		<item tipo="texto" texto="La huella"></item>
+		<item tipo="texto" texto="Le pere pinar"></item>
+		<item tipo="texto" texto="Pahiuen"></item>
+		<item tipo="texto" texto="P Paradiso"></item>
+		<item tipo="texto" texto="Rose"></item>
+		<item tipo="texto" texto="Sport Beach"></item>
+		<item tipo="texto" texto="Sucre"></item>
+		<item tipo="texto" texto="Vandam"></item>
+	</item>
+</bares>

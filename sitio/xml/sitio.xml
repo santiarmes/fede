@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<raiz>
+	<item tipo="menu" texto="s e r v i c i o s.">
+		<item tipo="menu" texto="p r o d u c c i ó n   i n t e g r a l   d e   e v e n t o s.">
+			<item tipo="contenido" src="xml/produccion.xml"></item>
+			<item tipo="menu" texto="s o n i d o." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/sonido/sonido-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/sonido.xml"></item>
+			</item>
+			<item tipo="menu" texto="I l u m i n a c i ó n." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/iluminacion/iluminacion-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/iluminacion.xml"></item>				
+			</item>
+			<item tipo="menu" texto="D j s." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/djs/djs-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/djs.xml"></item>							
+			</item>
+			<item tipo="menu" texto="A m b i e n t a c i ó n." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/ambientacion/ambientacion-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/ambientacion.xml"></item>							
+			</item>
+			<item tipo="menu" texto="C a t e r i n g." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/catering/catering-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/catering.xml"></item>
+			</item>
+			<item tipo="menu" texto="C o c t e l e r í a." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/cocteleria/cocteleria-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/cocteleria.xml"></item>
+			</item>
+			<item tipo="menu" texto="D i s e ñ o." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/diseno/diseno-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/diseno.xml"></item>			
+			</item>
+			<item tipo="menu" texto="F o t o g r a f í a." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/fotografia/fotografia-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/fotografia.xml"></item>			
+			</item>
+			<item tipo="menu" texto="F i l m a c i o n e s." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/filmaciones/filmaciones-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/filmaciones.xml"></item>
+			</item>
+			<item tipo="menu" texto="P r o y e c c i o n e s." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/proyecciones/proyecciones-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/proyecciones.xml"></item>
+			</item>
+			<item tipo="menu" texto="M u l t i m e d i a." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/multimedia/multimedia-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/multimedia.xml"></item>
+			</item>
+			<item tipo="menu" texto="S h o w s." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/shows/shows-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/shows.xml"></item>
+			</item>
+			<item tipo="menu" texto="E n t e r t a i n m e n t." preview="si" previewsrc="fotos/01-servicios/01.1-produccion_de_eventos/entertaiment/entertaiment-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/entertaiment.xml"></item>
+			</item>
+		</item>
+		<item tipo="menu" texto="m ú s i c a.">
+			<item tipo="contenido" src="xml/musica.xml"></item>
+		</item>
+		<item tipo="menu" texto="p r o   s o u n d.">
+			<item tipo="contenido" src="xml/prosound.xml"></item>
+		</item>
+	</item>
+	<item tipo="menu" texto="e v e n t o s.">
+		<item tipo="menu" texto="p r o y e c t o s.">
+			<item tipo="menu" texto="L a   T u r b o s o n o r a." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/la-turbosonora/turbosonora-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/laturbosonora.xml"></item>
+			</item>
+			<item tipo="menu" texto="C a m p a ñ a   P r e v e n c i ó n   d e   S i d a." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/por-amor/poramor-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/poramor.xml"></item>			
+			</item>
+			<item tipo="menu" texto="S h o w s." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/show/shows-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/show.xml"></item>
+			</item>	
+			<item tipo="menu" texto="S e l q u e t." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/selquet/selquet-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/selquet.xml"></item>
+			</item>
+			<item tipo="menu" texto="N e w   Y o r k." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/new-york/newyork-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/new-york.xml"></item>
+			</item>		
+			<item tipo="menu" texto="L a s   V a c a s   S a g r a d a s." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/vacas/lasvacas-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/vacas.xml"></item>
+			</item>
+			<item tipo="menu" texto="R u m b a   i n   H o l l y w o o d." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/rumba/rumba-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/rumba.xml"></item>
+			</item>	
+			<item tipo="menu" texto="C h a q u i r a." preview="si" previewsrc="fotos/02-eventos/02.2-proyectos/chaquira/chaquira-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/chaquira.xml"></item>
+			</item>			
+		</item>
+		<item tipo="menu" texto="c l i e n t e s.">
+			<item tipo="menu" texto="B r a h m a - C r e a m f i e l d s." preview="si" previewsrc="fotos/02-eventos/02.1-clientes/brahama-creamfields/brahama-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/brahama.xml"></item>
+			</item>
+			<item tipo="menu" texto="G r u p o   C l a r í n." preview="si" previewsrc="fotos/02-eventos/02.1-clientes/clarin/grupoclarin-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/clarin.xml"></item>
+			</item>
+			<item tipo="menu" texto="P a c h a."  preview="si" previewsrc="fotos/02-eventos/02.1-clientes/pacha/pacha-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/pacha.xml"></item>
+			</item>
+			<item tipo="menu" texto="F e s t i v a l   Z a r a t e." preview="si" previewsrc="fotos/02-eventos/02.1-clientes/zarate/festivalzarate-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/zarate.xml"></item>
+			</item>
+			<item tipo="menu" texto="D e s f i l e s   S h e r a t o n." preview="si" previewsrc="fotos/02-eventos/02.1-clientes/y.p.o-sheraton/sheraton-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/sheraton.xml"></item>
+			</item>
+			<item tipo="menu" texto="F i e s t a s   P r i v a d a s." preview="si" previewsrc="fotos/02-eventos/02.1-clientes/fiestas-privadas/fiestasprivadas-preview.jpg" ancho="317" alto="109">
+				<item tipo="contenido" src="xml/fiestas-privadas.xml"></item>
+			</item>
+			<item tipo="menu" texto="L i s t a   d e   c l i e n t e s.">
+				<item tipo="contenido" src="xml/lista_clientes.xml"></item>		
+			</item>
+		</item>
+	</item>
+	<item tipo="menu" texto="d j   f e d e   s c h r a g e r.">
+		<item tipo="menu" texto="e v e n t o s .">
+			<item tipo="contenido" src="xml/dj_eventos.xml"></item>
+		</item>
+		<item tipo="menu" texto="f i e s t a s.">
+			<item tipo="contenido" src="xml/dj_fiestas.xml"></item>
+		</item>
+		<item tipo="menu" texto="b a r e s   y   r e s t a u r a n t e s.">
+			<item tipo="contenido" src="xml/bares.xml"></item>		
+		</item>	
+		<item tipo="menu" texto="m ú s i c a.">
+			<item tipo="menu" texto="d i s c o s   r e c o m e n d a d o s.">
+				<item tipo="contenido" src="xml/discos.xml"></item>
+			</item>
+			<item tipo="menu" texto="d j s e t.">
+				<item tipo="contenido" src="xml/dj_sets.xml"></item>
+			</item>
+			<item tipo="menu" texto="a g e n d a.">
+				<item tipo="contenido" src="xml/agenda.xml"></item>
+			</item>
+			<item tipo="menu" texto="f o t o s.">
+				<item tipo="contenido" src="xml/dj_fotos.xml"></item>
+			</item>
+			<item tipo="menu" texto="v i d e o s.">
+				<item tipo="contenido" src="xml/dj_videos.xml"></item>
+			</item>
+		</item>
+	</item>
+	<item tipo="menu" texto="e q u i p o.">
+			<item tipo="menu" texto="f . s .">
+				<item tipo="contenido" src="xml/cv_fs.xml"></item>		
+			</item>
+			<item tipo="menu" texto="N O S O T R O S.">
+				<item tipo="contenido" src="xml/nosotros.xml"></item>		
+			</item>
+			<item tipo="menu" texto="A S O C I A D O S.">
+				<item tipo="contenido" src="xml/asociados.xml"></item>		
+			</item>
+	</item>
+	<item tipo="menu" texto="c o n t a c t o.">
+		<item tipo="menu" texto="e m a i l.">
+			<item tipo="contenido" src="xml/email.xml"></item>
+		</item>
+		<item tipo="menu" texto="d i r e c c i ó n.">
+			<item tipo="contenido" src="xml/contacto.xml"></item>
+		</item>
+		<item tipo="menu" texto="l i n k s.">
+			<item tipo="contenido" src="xml/links.xml"></item>
+		</item>
+	</item>
+</raiz>

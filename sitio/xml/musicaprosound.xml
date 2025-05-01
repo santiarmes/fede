@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1" alto="150" ancho="150" scrollbars="no" velocidad="20" eshtml="no" incremento="10" texto="Poramor.org, es una organización independiente dedicada a la Prevención de Sida, mediante la participación activa de la gente.
+
+Impulsamos campañas, que consisten en dejar escrito, la frase:">
+		<item tipo="fotos" alto="105" ancho="514" src="fotos/underconstruction/03.gif" titulo="" texto=""></item>
+	</item>
+</contacto>

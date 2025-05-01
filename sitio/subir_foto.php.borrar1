@@ -1,0 +1,132 @@
+<?
+require_once("header.php");
+$Header=new Header();
+$Header->header_pop("Agregar Imagen");
+?>
+<br>
+<script>
+function fun_sec(Var_Secc,Var_Pos){
+ if (Var_Secc=='Eventos'){
+   document.forms.formul.titulo.value = '';
+   document.forms.formul.descripcion.value = 'N/A';   
+   document.forms.formul.titulo.readOnly=0;
+   document.formul.descripcion.readOnly=1;
+ }
+
+ if (Var_Secc=='Fiestas'){
+   document.forms.formul.titulo.value = '';
+   document.forms.formul.descripcion.value = 'N/A';
+   document.forms.formul.titulo.readOnly=0;
+   document.formul.descripcion.readOnly=1;
+ }
+
+ if (Var_Secc=='Bares'){
+   document.forms.formul.titulo.value = '';
+   document.forms.formul.descripcion.value = 'N/A';
+   document.forms.formul.titulo.readOnly=0;
+   document.formul.descripcion.readOnly=1;
+ }
+
+ if (Var_Secc=='Discos'){
+   document.forms.formul.titulo.value = '';
+   document.forms.formul.descripcion.value = '';
+   document.forms.formul.titulo.readOnly=0;
+   document.formul.descripcion.readOnly=0;
+ }
+
+ if (Var_Secc=='Fotos'){
+   document.forms.formul.descripcion.value = 'N/A';
+   document.forms.formul.titulo.value = 'N/A';
+   document.forms.formul.titulo.readOnly=1;
+   document.formul.descripcion.readOnly=1;
+ }
+
+url = 'foto_ordena.php?Var_Secc=' + Var_Secc + '&Var_Pos=' + Var_Pos;
+    if(url==''){
+        return;
+    }
+    //  Otro Navegador
+    if (window.XMLHttpRequest) {
+        req = new XMLHttpRequest();
+        req.onreadystatechange = processReqChange;
+        req.open("GET", url, true);
+        req.send(null);
+    //  Internet Explorer Windows
+    } else if (window.ActiveXObject) {
+        isIE = true;
+        req = new ActiveXObject("Microsoft.XMLHTTP");
+        if (req) {
+            req.onreadystatechange = processReqChange;
+            req.open("GET", url, true);
+            req.send();
+        }
+    }
+
+}
+
+function processReqChange(){
+    var posicion = document.getElementById("posicion");
+    if(req.readyState == 4){
+	posicion.innerHTML = req.responseText;
+    } else {
+        posicion.innerHTML = '<img src="loading.gif" align="absmiddle" /> Cargando...';
+    }
+}
+
+</script>
+<form name="formul" action="acciones.php" method="post" enctype="multipart/form-data"> 
+<input type="hidden" name="accion" value="archivos">
+<input type="hidden" name="tarea" value="subir">
+<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width=100% colspan=5 align=center class=altn>Subir Imagen</td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Seccion</td>
+    <td width="65%">
+     <select name=seccion onchange="fun_sec(document.formul.seccion.value,'0');">
+      <option value="">Seleccionar</option>
+      <option value="Eventos">Eventos</option>
+      <option value="Fiestas">Fiestas</option>
+      <option value="Bares">Bares</option>
+      <option value="Discos">Discos</option>
+      <option value="Fotos">Fotos</option>
+     </select>
+</td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Titulo</td>
+    <td width="65%"><input type="text" name="titulo" size="50" maxlength="100" onKeypress="ValidaCarac()"></td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Descripcion</td>
+    <td width="65%"><input type="text" name="descripcion" size="50" maxlength="100" onKeypress="ValidaCarac()"></td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Foto (Max 2 mb)</td>
+    <td width="65%"><input name="archivo" type="file" size="40" onKeypress="ValidaCarac()"></td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Posicion</td>
+    <td width="65%"><div id="posicion" align="left"></div></td>
+  </tr>
+  <tr>
+    <td width="35%" class=tit>Activo</td>
+    <td width="65%"><select name=activo><option value="1">SI</option><option value="0">NO</option></select>
+    </td>
+  </tr>
+  <tr>
+    <td width=100% colspan=3 align=center class=altn>
+      <INPUT TYPE="button" VALUE="Subir" onclick="valida_campo(this.form,'seccion,titulo,descripcion,archivo,activo','Foto');">
+    </td>
+  </tr>
+</table>
+</form>
+<div id="detalles" align="center"></div>
+<?
+require_once("botton.php");
+$Botton=new Botton();
+$Botton->Botton_pop();
+?>

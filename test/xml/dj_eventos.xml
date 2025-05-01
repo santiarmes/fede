@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<contacto>
+	<item tipo="visor_texto_fotos_2" altoFoto="330" anchoFoto="247" velocidadFoto="3000" altoTextoColumna="430" anchoTextoColumna="100">
+		<item tipo="fotos" src="fotos/eventos/bariloche.jpg" titulo="Bariloche" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/creamfield.jpg" titulo="Creamfield" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/estudioabierto2.jpg" titulo="Estudio Abierto" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/estudioabierto.jpg" titulo="Estudio Abierto" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/fuerzabruta.jpg" titulo="Fuerza Bruta" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/lacoste.jpg" titulo="Lacoste" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/purodiseno.jpg" titulo="Puro Diseño" texto=""></item>
+		<item tipo="fotos" src="fotos/eventos/purodiseno2.jpg" titulo="Puro Diseño" texto=""></item>
+
+		<item tipo="texto" texto="Bariloche"></item>
+		<item tipo="texto" texto="Creamfield"></item>
+		<item tipo="texto" texto="Estudio Abierto"></item>
+		<item tipo="texto" texto="Fuerza Bruta"></item>
+		<item tipo="texto" texto="Lacoste"></item>
+		<item tipo="texto" texto="Puro Diseño"></item>
+	</item>
+</contacto>

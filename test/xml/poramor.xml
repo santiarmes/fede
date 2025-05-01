@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1" alto="400" ancho="100" scrollbars="si" velocidad="20" eshtml="no" incremento="10" texto="Poramor.org, es una organización independiente dedicada a la Prevención de Sida, mediante la participación activa de la gente.
+
+Impulsamos campañas, que consisten en dejar escrito, pintado o estampado en las paredes de todas las ciudades, la frase:
+
+
+POR AMOR usá PRESERVATIVO
+
+Elegimos el graffiti, el stencil o el mural como forma de expresión, porque perdura mas allá de cualquier otra forma publicitaria.
+En la acción de realizarlo, cada ciudadano esta participando activamente de la prevención. 
+No es lo mismo, leer en una publicidad, POR AMOR usá PRESERVATIVO que pintarlo personalmente en una pared.
+
+ Poramor.org, es una organización independiente dedicada a la Prevención de Sida, mediante la participación activa de la gente.
+
+Impulsamos campañas, que consisten en dejar escrito, pintado o estampado en las paredes de todas las ciudades, la frase:
+
+
+POR AMOR usá PRESERVATIVO
+
+Elegimos el graffiti, el stencil o el mural como forma de expresión, porque perdura mas allá de cualquier otra forma publicitaria.
+En la acción de realizarlo, cada ciudadano esta participando activamente de la prevención. 
+No es lo mismo, leer en una publicidad, POR AMOR usá PRESERVATIVO que pintarlo personalmente en una pared.">
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>		
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto01.jpg" titulo="titulo" texto="bla"></item>
+		<item tipo="fotos" alto="400" ancho="100" src="fotos/foto02.jpg" titulo="titulo2" texto="bla2"></item>
+	</item>
+</contacto>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1" alto="300" ancho="200" scrollbars="no" velocidad="20" eshtml="si" incremento="10" texto="">
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/clarin/01.clarin.jpg" titulo="GRUPO CLARIN" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/clarin/02.clarin.jpg" titulo="GRUPO CLARIN" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/clarin/03.clarin.jpg" titulo="GRUPO CLARIN" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/clarin/04.clarin.jpg" titulo="GRUPO CLARIN" texto=""></item>
+	</item>
+</contacto>

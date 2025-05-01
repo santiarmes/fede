@@ -1,0 +1,34 @@
+ El volumen de la unidad I es LAUFER
+ El n£mero de serie del volumen es: 18BE-6784
+
+ Directorio de I:\Federico Schrager\laburo\fotos\bares
+
+02/01/2007  05:56 a.m.    <DIR>          .
+02/01/2007  05:56 a.m.    <DIR>          ..
+02/01/2007  05:50 a.m.            12.728 bajoelalma.jpg
+02/01/2007  05:51 a.m.            16.314 bar6.jpg
+02/01/2007  05:47 a.m.            28.957 baruriarte.jpg
+02/01/2007  05:51 a.m.            41.224 cafelafayatte.jpg
+02/01/2007  05:51 a.m.            25.792 christothe.jpg
+02/01/2007  05:51 a.m.            20.932 cm1.jpg
+02/01/2007  05:50 a.m.            22.338 cm2.jpg
+02/01/2007  05:50 a.m.            15.845 cm4.jpg
+02/01/2007  05:51 a.m.            37.300 danzon.jpg
+02/01/2007  05:56 a.m.                38 fotos.txt
+02/01/2007  05:50 a.m.            30.194 kosiukobar.jpg
+02/01/2007  05:50 a.m.            31.822 kuar1.jpg
+02/01/2007  05:50 a.m.            26.194 kuar2.jpg
+02/01/2007  05:49 a.m.            23.630 lahuella.jpg
+02/01/2007  05:49 a.m.            35.257 lahuella2.jpg
+02/01/2007  05:49 a.m.            34.481 leperepinar.jpg
+02/01/2007  05:49 a.m.            34.365 pahiuen.jpg
+02/01/2007  05:48 a.m.            31.935 pparadiso.jpg
+02/01/2007  05:48 a.m.            30.989 pparadiso2.jpg
+02/01/2007  05:47 a.m.            30.008 rose.jpg
+02/01/2007  05:47 a.m.            20.202 sportbeach.jpg
+02/01/2007  05:52 a.m.             5.783 sucre1.jpg
+02/01/2007  05:52 a.m.            31.344 sucre2.jpg
+02/01/2007  05:52 a.m.            27.629 sucre3.jpg
+02/01/2007  05:46 a.m.            22.401 vandam.jpg
+              25 archivos        637.702 bytes
+               2 dirs  12.337.946.624 bytes libres

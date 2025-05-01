@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1b" alto="200" ancho="175" scrollbars="no" velocidad="20" eshtml="no" incremento="10" texto="Asesoramiento técnico.
+
+Audio Profesional y Hogareño de alta definición.
+
+Equipamiento e Instalaciones.">
+		<item tipo="fotos" alto="104" ancho="514" src="fotos/01-servicios/01.3-prosound/prosound-preview.jpg" titulo="" texto=""></item>
+	</item>
+</contacto>

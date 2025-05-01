@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<contacto>
+		<item tipo="visor_fotos_3">
+			<item tipo="fotos" src="fotos/underconstruction/06.jpg" titulo="Under Construction" texto="Under Construction"></item>
+			<item tipo="fotos" src="fotos/underconstruction/06-01.jpg" titulo="Under Construction" texto="Under Construction"></item>
+			<item tipo="fotos" src="fotos/underconstruction/06-02.jpg" titulo="Under Construction" texto="Under Construction"></item>
+			<item tipo="fotos" src="fotos/underconstruction/06-03.jpg" titulo="Under Construction" texto="Under Construction"></item>
+			<item tipo="fotos" src="fotos/underconstruction/06-04.jpg" titulo="Under Construction" texto="Under Construction"></item>
+			<item tipo="fotos" src="fotos/underconstruction/06-05.jpg" titulo="Under Construction" texto="Under Construction"></item>
+		</item>
+	</contacto>

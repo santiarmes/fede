@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1a" altoFoto="192" anchoFoto="247" velocidadFoto="250000" alto="250" ancho="200" scrollbars="no" velocidad="20" eshtml="si" incremento="10" texto="Sonido profesional de alta fidelidad, para todo tipo de eventos.
+
+Personal técnico especializado. 
+
+Sistemas de Sonido tope de línea,
+de la más alta gama técnica y estética.">
+		<item tipo="fotos" src="fotos/01-servicios/01.1-produccion_de_eventos/sonido/01sonido.jpg" titulo="" texto=""></item>
+	</item>
+</contacto>

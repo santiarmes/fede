@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<contacto>
+		<item tipo="visor_texto_fotos_2" altoFoto="375" anchoFoto="480" velocidadFoto="3000">
+			<item tipo="fotos" src="fotos/underconstruction/07.jpg" titulo="" texto=""></item>
+		</item>
+	</contacto>

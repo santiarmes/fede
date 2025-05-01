@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contacto>
+	<item tipo="visor_texto_fotos_1" alto="300" ancho="200" scrollbars="no" velocidad="20" eshtml="si" incremento="10" texto="">
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/01.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/02.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/03.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/04.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/05.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/06.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/07.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/08.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/09.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/10.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+		<item tipo="fotos" alto="193" ancho="247" src="fotos/02-eventos/02.1-clientes/fiestas-privadas/11.fiestas-privadas.jpg" titulo="FIESTAS PRIVADAS" texto=""></item>
+	</item>
+</contacto>
