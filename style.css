@@ -5033,7 +5033,7 @@ section .inner-wrapper {
     .sec-la-caracola .item-title {
       width: 100vw;
       text-align: center;
-      left: 0;
+      left: -20px;
       right: 0;
       top: 50px;
       bottom: 75px;
@@ -5363,10 +5363,10 @@ section .inner-wrapper {
   @media screen and (max-width: 500px) {
     .sec-winter-session .item-title {
       left: initial;
-      right: 0;
+      right: 50px;
       bottom: initial;
-      top: 15vh;
-      width: 100%;
+      top: 34vh;
+      width: 80%;
       z-index: 2; } }
   .sec-winter-session .item-title img {
     width: 100%; }
@@ -5381,7 +5381,7 @@ section .inner-wrapper {
     .sec-winter-session .item-title-2 {
       right: 0;
       top: initial;
-      bottom: 15vh;
+      bottom: 8vh;
       z-index: 9;
       position: absolute;
       width: 100%; } }
@@ -5417,7 +5417,7 @@ section .inner-wrapper {
       top: initial;
       z-index: 2;
       text-align: left;
-      bottom: 30vh;
+      bottom: 25vh;
       left: 11px;
       font-size: 13px;
       line-height: 22px;
@@ -5435,11 +5435,11 @@ section .inner-wrapper {
     .sec-feria-gastronomica .item-title {
       position: absolute;
       left: 5vw;
-      bottom: 35vh;
+      bottom: 23vh;
       z-index: 2;
       top: initial; } }
   .sec-feria-gastronomica .item-title img {
-    width: 209%; }
+    width: 100%; }
 .sec-feria-gastronomica .item-image-quote {
   position: absolute;
   bottom: 5vh;
@@ -5455,7 +5455,7 @@ section .inner-wrapper {
 .sec-feria-gastronomica .item-image {
   position: absolute;
   right: 0;
-  top: 30vh;
+  top: 15vh;
   z-index: 2;
   left: initial; }
   .sec-feria-gastronomica .item-image img {
